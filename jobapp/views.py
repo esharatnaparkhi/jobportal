@@ -7,7 +7,7 @@ import datetime
 # Create your views here.
 def index(request):
     job=Jobs.objects.all()
-    return render(request,"index.html",locals())
+    return render(request, "index.html", locals())
 def aboutus(request):
     return render(request,"aboutus.html")
 def jobseekerreg(request):
